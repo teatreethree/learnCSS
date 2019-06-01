@@ -1,0 +1,29 @@
+#logo {
+    color: blue;
+    font-size: 35px;
+    margin-left: 20px; /*การขยับ คอนสเตน */
+    }
+#e1{
+    color:#F333;
+    font-size: 35px;
+    }
+.e2{
+    color: orange;
+    font-size: 35px;
+    border: 2px red solid;
+}
+#e1,.e2{
+    background-color: yellow;
+}
+body{
+    /*background-color: green;*/
+    /*background-image: url(img/test.jpeg);
+    background-repeat: no-repeat ;
+    background-position: top right;*/
+    /*background-image: url(https://cdn.pixabay.com/photo/2017/08/04/10/36/background-2579719_1280.jpg);*/
+    /*การซ่ำรูป ตามแกนrepeat*/
+    /*short term*/ 
+    background: url(img/test.jpeg) no-repeat top right;
+    
+    
+}
